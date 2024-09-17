@@ -305,3 +305,139 @@ footer .questions {
     flex-direction: column;
     gap: 23px;
 }
+
+.morBx {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow-x: auto;
+    box-sizing: border-box;
+    padding: 20px 0;
+
+}
+
+
+.mor-tit {
+    width: 1200px;
+    margin: auto;
+    padding: 11px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.mor-bx {
+    border: 2px solid transparent;
+    border-radius: 14px;
+    margin: 6px;
+    background: linear-gradient(145deg, #192247 0%, #210e17 96.86%);
+    width: calc(50% - 20px);
+    min-width: 280px;
+    height: 314px;
+    position: relative;
+    overflow: hidden;
+}
+
+div#mor-bx1 {
+    position: relative;
+}
+
+.mn-box {
+display: flex;
+/* flex-wrap: wrap; */
+justify-content: center;
+max-width: 1200px;
+margin: auto;
+}
+
+.bx1-qlote {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.bx1-qlote>:nth-child(1) {
+  
+    margin: 0px 13px;
+
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.bx1-qlote>:nth-child(2) {
+  margin: 0px 13px;
+    color: #ffffff4f;
+    font-size: 15px;
+
+}
+
+#mor-bx2 {
+    position: relative;
+}
+
+.mn-px {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+
+}
+
+
+
+.mn-px1 {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+
+}
+
+#mor-bx3 {
+    position: relative;
+}
+
+
+
+.mn-px3 {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+
+}
+
+#mor-bx4 {
+    position: relative;
+}
+
+
+
+.mn-px4 {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+
+}
+@media (max-width: 1200px) {
+    .mn-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mor-bx {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mor-bx {
+        width: calc(50% - 20px);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mor-bx {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }}
